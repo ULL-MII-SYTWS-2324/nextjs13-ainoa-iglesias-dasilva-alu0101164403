@@ -15,11 +15,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* <nav>
-          <h1>Dojo Helpdesk</h1>
-          <Link href="/">Dashboard</Link>
-          <Link href="/tickets">Tickets</Link>
-        </nav> */}
         <Navbar />
         {children}
       </body>
